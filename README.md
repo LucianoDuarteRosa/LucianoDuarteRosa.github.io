@@ -1,7 +1,7 @@
-<h2><center><strong><font style="font-family: Arial, sans-serif;"> Currículo Online </font></strong></center></h2>
+#Currículo Online 
 
 ---
-<h4><center><strong>Curso Git e GitHub - Básico ao Avançado</strong></center></h4>
+###Curso Git e GitHub - Básico ao Avançado
 
 
 Bem-vindo ao repositório!
