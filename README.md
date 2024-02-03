@@ -1,7 +1,7 @@
-#Currículo Online 
+Currículo Online 
 
 ---
-###Curso Git e GitHub - Básico ao Avançado
+Curso Git e GitHub - Básico ao Avançado
 
 
 Bem-vindo ao repositório!
