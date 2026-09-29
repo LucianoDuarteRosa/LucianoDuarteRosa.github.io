@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9e51f3"/>
+      <stop offset="1" stop-color="#6c2fc0"/>
+    </linearGradient>
+    <clipPath id="screen"><rect x="200" y="96" width="200" height="380" rx="18"/></clipPath>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="90" cy="120" r="110" fill="#fff" opacity=".07"/>
+  <circle cx="540" cy="420" r="150" fill="#fff" opacity=".07"/>
+
+  <!-- phone -->
+  <rect x="186" y="80" width="228" height="412" rx="32" fill="#1f2a37"/>
+  <g clip-path="url(#screen)">
+    <!-- map -->
+    <rect x="200" y="96" width="200" height="380" fill="#e8f6ee"/>
+    <g stroke="#fff" stroke-width="10">
+      <line x1="180" y1="170" x2="420" y2="130"/>
+      <line x1="180" y1="300" x2="420" y2="250"/>
+      <line x1="260" y1="80" x2="300" y2="480"/>
+      <line x1="360" y1="80" x2="340" y2="480"/>
+    </g>
+    <rect x="310" y="160" width="40" height="60" fill="#c9eedb"/>
+    <rect x="215" y="200" width="60" height="70" fill="#c9eedb"/>
+    <!-- route -->
+    <path d="M240 330 C 260 290, 300 280, 320 230 S 350 180, 330 150" fill="none" stroke="#9e51f3" stroke-width="5" stroke-dasharray="10 7" stroke-linecap="round"/>
+    <!-- event card -->
+    <rect x="212" y="370" width="176" height="92" rx="12" fill="#fff"/>
+    <rect x="224" y="382" width="52" height="68" rx="8" fill="#2eca7f"/>
+    <text x="250" y="410" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="22" fill="#fff">18</text>
+    <text x="250" y="430" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="12" fill="#fff">OUT</text>
+    <rect x="286" y="388" width="88" height="9" rx="4" fill="#1f2a37"/>
+    <rect x="286" y="406" width="70" height="6" rx="3" fill="#c7cfd8"/>
+    <rect x="286" y="420" width="80" height="6" rx="3" fill="#c7cfd8"/>
+    <path d="M362 434 c-4 -6 -12 -6 -12 1 c0 6 12 12 12 12 s12 -6 12 -12 c0 -7 -8 -7 -12 -1z" fill="#ff5a7a"/>
+  </g>
+  <!-- speaker notch -->
+  <rect x="270" y="88" width="60" height="6" rx="3" fill="#0f151d"/>
+
+  <!-- main pin -->
+  <g transform="translate(330 150)">
+    <path d="M0 -58 C -26 -58 -40 -38 -40 -20 C -40 8 0 40 0 40 C 0 40 40 8 40 -20 C 40 -38 26 -58 0 -58 Z" fill="#ff5a7a" stroke="#fff" stroke-width="4"/>
+    <circle cx="0" cy="-22" r="13" fill="#fff"/>
+  </g>
+  <!-- small pins -->
+  <circle cx="240" cy="330" r="10" fill="#2eca7f" stroke="#fff" stroke-width="4"/>
+  <circle cx="370" cy="290" r="8" fill="#f39c3d" stroke="#fff" stroke-width="3"/>
+
+  <!-- floating: notification -->
+  <g transform="translate(418 140)">
+    <rect width="150" height="58" rx="14" fill="#fff"/>
+    <circle cx="28" cy="29" r="15" fill="#9e51f3"/>
+    <path d="M22 34 v-7 a6 6 0 0 1 12 0 v7 l3 3 h-18z M26 39 a2 2 0 0 0 4 0" fill="#fff"/>
+    <rect x="52" y="18" width="80" height="8" rx="4" fill="#1f2a37"/>
+    <rect x="52" y="34" width="60" height="6" rx="3" fill="#c7cfd8"/>
+  </g>
+
+  <!-- floating: accessibility -->
+  <g transform="translate(64 250)">
+    <circle cx="48" cy="48" r="48" fill="#fff"/>
+    <circle cx="48" cy="26" r="7" fill="#1f2a37"/>
+    <path d="M24 40 H72 M48 40 V62 M48 62 L36 80 M48 62 L60 80" stroke="#1f2a37" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- floating: audio -->
+  <g transform="translate(430 330)">
+    <rect width="104" height="56" rx="28" fill="#2eca7f"/>
+    <path d="M30 22 h8 l10 -8 v28 l-10 -8 h-8z" fill="#fff"/>
+    <path d="M56 20 q8 8 0 16 M64 14 q14 14 0 28" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- title -->
+  <text x="40" y="540" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="30" fill="#fff">Tá on, aqui</text>
+  <text x="40" y="570" font-family="Roboto, Arial, sans-serif" font-size="17" fill="#eadcff">Eventos, notícias e locais da região</text>
+  <text x="40" y="60" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="16" fill="#eadcff" letter-spacing="3">MOBILE · WEB · API .NET</text>
+</svg>
